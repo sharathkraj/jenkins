@@ -17,8 +17,11 @@ public class Step_definitions_Login extends driverManger {
 		
 			System.out.println("Entering the Login Page...");
 			LoginPage.USERNAME.sendKeys(userName);
+			System.out.println(" -2 ");
 			LoginPage.PASSWORD.sendKeys(PassWord);
+			System.out.println(" -1 ");
 			LoginPage.LOGIN_BUTTON.click();
+			System.out.println(" 0 ");
 			System.out.println("Login Sucessfully");
 	}
 	
@@ -28,16 +31,16 @@ public class Step_definitions_Login extends driverManger {
 			System.out.println("Entering the Logout Page Sucessfully");
 					
 //			Thread.sleep(1000);
-//			System.out.println(" 1 ");
+			System.out.println(" 1 ");
 //			LoginPage.MenuClick.click();
 //			
 //			Thread.sleep(1000);
-//			System.out.println(" 8 ");
+			System.out.println(" 2 ");
 //			LoginPage.LOGOUT_BUTTON.click();
 //			
 //			
 //			Thread.sleep(1000);
-//			System.out.println(" 118 ");
+			System.out.println(" 3");
 //			LoginPage.CONFIRM_BUTTON.click();
 			
 			System.out.println("Logout Sucessfully");
