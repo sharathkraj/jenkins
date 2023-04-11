@@ -28,18 +28,18 @@ public class Step_definitions_Login extends driverManger {
 				
 			System.out.println("Entering the Logout Page Sucessfully");
 					
-			Thread.sleep(1000);
-			System.out.println(" 1 ");
-			LoginPage.MenuClick.click();
-			
-			Thread.sleep(1000);
-			System.out.println(" 8 ");
-			LoginPage.LOGOUT_BUTTON.click();
-			
-			
-			Thread.sleep(1000);
-			System.out.println(" 118 ");
-			LoginPage.CONFIRM_BUTTON.click();
+//			Thread.sleep(1000);
+//			System.out.println(" 1 ");
+//			LoginPage.MenuClick.click();
+//			
+//			Thread.sleep(1000);
+//			System.out.println(" 8 ");
+//			LoginPage.LOGOUT_BUTTON.click();
+//			
+//			
+//			Thread.sleep(1000);
+//			System.out.println(" 118 ");
+//			LoginPage.CONFIRM_BUTTON.click();
 			
 			System.out.println("Logout Sucessfully");
 					
