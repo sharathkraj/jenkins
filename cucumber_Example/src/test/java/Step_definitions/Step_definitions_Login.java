@@ -12,7 +12,6 @@ import io.cucumber.java.en.Then;
 public class Step_definitions_Login extends driverManger {
 	
 	//private static final Logger LOGGER = LogManager.getLogger(Step_definitions_Login.class);
-	@Test
 	@Given("Users enter invalid {string} and  invalid {string}")
 	public void users_enters_invalid_and_invalid(String userName, String PassWord ) throws InterruptedException, IOException {
 		
@@ -22,7 +21,7 @@ public class Step_definitions_Login extends driverManger {
 			LoginPage.LOGIN_BUTTON.click();
 			System.out.println("Login Sucessfully");
 	}
-	@Test
+	
 	@Then("Users can able to Logout the Applications")
 	public void users_can_able_to_logout_the_applications() throws InterruptedException, IOException {
 				
