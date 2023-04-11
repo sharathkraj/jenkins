@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-11T05:38:36.899Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36720693800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_definitions.Common_Step_Definitions.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login and Logout Functionality",
+        "description": "",
+        "id": "user-can-able-to-login-the-the-simpler-trading-application;login-and-logout-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2925734500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Users enter invalid \"roomtest1@simplertrading.com\" and  invalid \"4IW6i8vINHxWD@1upABBOqxG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"roomtest1@simplertrading.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"4IW6i8vINHxWD@1upABBOqxG\"",
+                  "offset": 64
+                }
+              ],
+              "location": "Step_definitions.Step_definitions_Login.users_enters_invalid_and_invalid(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 995600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Step_definitions.Common_Step_Definitions.attachScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8584095400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Users can able to Logout the Applications",
+            "match": {
+              "location": "Step_definitions.Step_definitions_Login.users_can_able_to_logout_the_applications()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Step_definitions.Common_Step_Definitions.attachScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "User can able to login the the Simpler trading Application",
+    "description": "",
+    "id": "user-can-able-to-login-the-the-simpler-trading-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature_files/Ionic.feature",
+    "tags": []
+  }
+]
