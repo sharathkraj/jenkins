@@ -25,14 +25,14 @@ public class LoginPage {
 	 
 	 
      // Logout page//
-	@FindBy(xpath = "//android.widget.Image[@text='menu outline']")
+	@FindBy(xpath = "//android.widget.Button[@text='OK']")
 	public static  WebElement MenuClick;
 
 		
-	@FindBy(xpath = "//android.widget.Button[@text='Log Out']")
+	@FindBy(xpath = "//android.widget.Image[@text='menu outline']")
 	public static  WebElement LOGOUT_BUTTON;
 		 
-	@FindBy(xpath = "//android.widget.Button[@text='OK']")
+	@FindBy(xpath = "//android.widget.Button[@text='Log Out']")
 	public static  WebElement CONFIRM_BUTTON;
 	   
 }

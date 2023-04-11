@@ -1,7 +1,5 @@
 package Step_definitions;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -16,7 +14,7 @@ import utilities.commonUtils;
 
 public class Common_Step_Definitions extends driverManger  {
 	
-	private static final Logger LOGGER = LogManager.getLogger(Common_Step_Definitions.class);
+//	private static final Logger LOGGER = LogManager.getLogger(Common_Step_Definitions.class);
 	
 	public static AppiumDriver driver;
 	
@@ -25,12 +23,12 @@ public class Common_Step_Definitions extends driverManger  {
 	public void beforeScenario() {
 		
 		try {
-			LOGGER.info("before Scenarios");
+//			LOGGER.info("before Scenarios");
 			commonUtils CommonUtils = new commonUtils();
 			CommonUtils.loadProperties();
 			
 			if(driver == null) {
-				LOGGER.info("Launch driver");
+//				LOGGER.info("Launch driver");
 				driverManger.launchdriver();	
 				CommonUtils.initWebElements();
 			}
